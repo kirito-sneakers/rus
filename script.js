@@ -176,7 +176,7 @@ burger.addEventListener('click', () => {
   }
 });
 
-function switchЯзык(newLang) {
+function switchLanguage(newLang) {
   const currentUrl = window.location.href;
 
   // Заменяем /eng/ или /rus/ на пустую строку, если выбран 'ukr'
@@ -192,7 +192,7 @@ function switchЯзык(newLang) {
     link.addEventListener('click', function (e) {
       e.preventDefault(); // отменяем переход по href="#"
       const lang = this.getAttribute('data-lang');
-      switchЯзык(lang);
+      switchLanguage(lang);
     });
   });
 

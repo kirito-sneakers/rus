@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -124,7 +124,7 @@ document.querySelector('main').prepend(goBackBtn);
                     </svg>
                 </span>
                 <div class="dropdown-menu lang">
-                    <a data-lang='' class="montserrat-light underline-animated dd">Ukr</a>
+                    <a data-lang='ukr' class="montserrat-light underline-animated dd">Ukr</a>
                     <a data-lang='eng' class="montserrat-light underline-animated dd">Eng</a>
                 </div>
             </div>
@@ -259,7 +259,7 @@ burger.addEventListener('click', () => {
   }
 });
 
-function switchЯзык(newLang) {
+function switchLanguage(newLang) {
   const currentUrl = window.location.href;
 
   // Заменяем /eng/ или /rus/ на пустую строку, если выбран 'ukr'
@@ -276,7 +276,7 @@ function switchЯзык(newLang) {
     link.addEventListener('click', function (e) {
       e.preventDefault(); // отменяем переход по href="#"
       const lang = this.getAttribute('data-lang');
-      switchЯзык(lang);
+      switchLanguage(lang);
     });
   });
 
