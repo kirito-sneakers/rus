@@ -41,7 +41,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     </svg>
                 </span>
                 <div class="dropdown-menu lang">
-                    <a data-lang='' class="montserrat-light underline-animated dd">Ukr</a>
+                    <a data-lang='ukr' class="montserrat-light underline-animated dd">Ukr</a>
                     <a data-lang='eng' class="montserrat-light underline-animated dd">Eng</a>
                 </div>
             </div>
@@ -106,7 +106,7 @@ window.addEventListener('DOMContentLoaded', () => {
         <a href="./../rick-owens" class="montserrat-light">Rick Owens</a>
         <div class="oswald-medium">Язык</div>
         <a data-lang='eng' class="montserrat-light">Eng</a>
-        <a data-lang='' class="montserrat-light">Ukr</a>
+        <a data-lang='ukr' class="montserrat-light">Ukr</a>
         <a data-lang='rus' class="montserrat-light">Rus</a>
     `;
 
