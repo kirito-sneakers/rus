@@ -1824,16 +1824,16 @@ footer {
             text-align: center;
             gap: 40px;
             align-items: center;
+            .total-price {
+                font-size: 22px;
+                font-weight: 600;
+            }
             ul {
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
                 list-style-type: none;
                 padding-left: 0;
-                li span {
-                    font-size: 24px;
-                    font-weight: 600;
-                }
                 li::marker {
                     content: '';
                     marker: none;
@@ -2301,12 +2301,8 @@ footer {
             .descr {
                 font-size: 17px;
                 gap: 30px;
-                ul {
-                    li {
-                        span.total-price {
-                            font-size: 20px;
-                        }
-                    }
+                .total-price {
+                    font-size: 20px;
                 }
             }
             .about-qlt {

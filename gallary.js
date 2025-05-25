@@ -37,13 +37,12 @@ function updateContent(colorName, commonInfo, colorsData) {
         // Обновляем текстовую информацию
         const itemInfo = document.querySelector(".item-info");
         itemInfo.querySelector("h2").textContent = selectedColor.name;
-        itemInfo.querySelector(".descr p:nth-child(1)").textContent = "Price:";
         itemInfo.querySelector(".descr ul").innerHTML = `
             <li>Excellent Quality - <span class="total-price">${selectedColor.prices.excellent}</span></li>
             <li>Good Quality - <span class="total-price">${selectedColor.prices.good}</span></li>
             <li>Middle Quality - <span class="total-price">${selectedColor.prices.middle}</span></li>
         `;
-        itemInfo.querySelector(".descr p:nth-child(3)").textContent = `Sizes: ${commonInfo.sizes}`;
+        itemInfo.querySelector(".descr .sizes").innerHTML = `Размеры: <span class="total-price">${commonInfo.sizes}</span>`;
     }
 }
 

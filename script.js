@@ -9,12 +9,12 @@ window.addEventListener('DOMContentLoaded', () => {
             <span></span>
         </label>
         <nav class="header-info">
-            <a href="./../" class="montserrat-light underline-animated">Home</a>
-            <a href="./../info.html" class="montserrat-light underline-animated">About us</a>
-            <a href="https://t.me/kirito_ls" class="montserrat-light underline-animated" target="_blank">Contact us</a>
+            <a href="./../" class="montserrat-light underline-animated">Главная</a>
+            <a href="./../info.html" class="montserrat-light underline-animated">О нас</a>
+            <a href="https://t.me/kirito_ls" class="montserrat-light underline-animated" target="_blank">Написать нам</a>
             <div class="dropdown">
                 <span class="dropdown-title montserrat-light">
-                    Brands 
+                    Бренды 
                     <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
                         <path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"/>
                     </svg>
@@ -35,14 +35,14 @@ window.addEventListener('DOMContentLoaded', () => {
                         <path d="M195.708 268.059c-.821-4.11-29.103-145.52-30-150.001C164.307 111.047 158.15 106 151 106h-30c-7.15 0-13.307 5.047-14.708 12.058-.911 4.557-29.222 146.111-30 150-1.625 8.124 3.644 16.026 11.767 17.65 8.123 1.625 16.026-3.644 17.65-11.767L115.297 226h41.406l9.588 47.942c1.625 8.127 9.531 13.392 17.65 11.767 8.123-1.625 13.392-9.527 11.767-17.65zM121.297 196l12-60h5.406l12 60h-29.406zM436 226h-45v-15c0-8.284-6.716-15-15-15s-15 6.716-15 15v15h-45c-8.284 0-15 6.716-15 15s6.716 15 15 15h3.63c8.547 27.612 21.415 48.806 35.575 65.79-11.525 10.542-23.187 19.187-33.575 27.497-6.469 5.175-7.518 14.614-2.342 21.083 5.178 6.472 14.618 7.515 21.083 2.342 10.446-8.357 22.967-17.644 35.629-29.264 12.671 11.628 25.215 20.932 35.629 29.264 6.469 5.176 15.909 4.126 21.083-2.342 5.175-6.469 4.126-15.909-2.342-21.083-10.361-8.291-22.038-16.945-33.575-27.497 14.16-16.984 27.028-38.178 35.575-65.79H436c8.284 0 15-6.716 15-15s-6.716-15-15-15zm-60 73.745c-9.575-12.02-18.189-26.367-24.683-43.845h49.365c-6.493 17.478-15.107 31.825-24.682 43.845z"></path>
                         <path d="M467 91H250.599l-6.43-51.582C241.36 16.946 222.164 0 199.517 0H45C20.187 0 0 20.187 0 45v331c0 24.813 20.187 45 45 45h126.483l6.348 51.582c2.804 22.427 22 39.418 44.653 39.418H467c24.813 0 45-20.187 45-45V136c0-24.813-20.187-45-45-45zM45 391c-8.271 0-15-6.729-15-15V45c0-8.271 6.729-15 15-15h154.517c7.549 0 13.948 5.648 14.883 13.134 2.174 17.436 41.208 330.57 43.364 347.866H45zm161.724 70.75L201.709 421h40.244l-35.229 40.75zM482 467c0 8.271-6.729 15-15 15H228.874l57.104-66.053c2.923-3.297 4.233-7.674 3.629-12.024L254.339 121H467c8.271 0 15 6.729 15 15v331z"></path>
                     </svg>
-                    Eng
+                    Rus
                     <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
                         <path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"/>
                     </svg>
                 </span>
                 <div class="dropdown-menu lang">
-                    <a data-lang='' class="montserrat-light underline-animated dd">Ukr</a>
-                    <a data-lang='rus' class="montserrat-light underline-animated dd">Rus</a>
+                    <a data-lang='ukr' class="montserrat-light underline-animated dd">Ukr</a>
+                    <a data-lang='eng' class="montserrat-light underline-animated dd">Eng</a>
                 </div>
             </div>
             <a href="./../saved.html" class="saved-icon">
@@ -66,9 +66,9 @@ window.addEventListener('DOMContentLoaded', () => {
     footer.innerHTML = `
         <div class="footer-logo"><a href="./../"><img loading="lazy"src="./../img/logotype.png" alt=""></a></div>
         <div class="footer-info">
-            <a href="https://t.me/kirito_ls" class="oswald-light underline-animated-black" target="_blank">Contact us</a>
-            <a href="./../info.html" class="oswald-light underline-animated-black">About us</a>
-            <a href="./../" class="oswald-light underline-animated-black">Home</a>
+            <a href="https://t.me/kirito_ls" class="oswald-light underline-animated-black" target="_blank">Написать нам</a>
+            <a href="./../info.html" class="oswald-light underline-animated-black">О нас</a>
+            <a href="./../" class="oswald-light underline-animated-black">Главная</a>
         </div>
         <div class="footer-contacts">
             <a href="https://www.instagram.com/kirito_sneakers/" target="_blank">
@@ -97,14 +97,14 @@ window.addEventListener('DOMContentLoaded', () => {
     mobileNav.id = 'mobile-nav';
     mobileNav.className = '';
     mobileNav.innerHTML = `
-        <div class="oswald-medium">menu</div>
-        <a href="./../" class="montserrat-light">Home</a>
-        <a href="./../info.html" class="montserrat-light">About us</a>
-        <a href="https://t.me/kirito_ls" class="montserrat-light" target="_blank">Contact us</a>
-        <div class="oswald-medium">brands</div>
+        <div class="oswald-medium">Меню</div>
+        <a href="./../" class="montserrat-light">Главная</a>
+        <a href="./../info.html" class="montserrat-light">О нас</a>
+        <a href="https://t.me/kirito_ls" class="montserrat-light" target="_blank">Написать нам</a>
+        <div class="oswald-medium">Бренды</div>
         <a href="./../balenciaga" class="montserrat-light">Balenciaga</a>
         <a href="./../rick-owens" class="montserrat-light">Rick Owens</a>
-        <div class="oswald-medium">Language</div>
+        <div class="oswald-medium">Язык</div>
         <a data-lang='eng' class="montserrat-light">Eng</a>
         <a data-lang='' class="montserrat-light">Ukr</a>
         <a data-lang='rus' class="montserrat-light">Rus</a>
@@ -176,7 +176,7 @@ burger.addEventListener('click', () => {
   }
 });
 
-function switchLanguage(newLang) {
+function switchЯзык(newLang) {
   const currentUrl = window.location.href;
 
   // Заменяем /eng/ или /rus/ на пустую строку, если выбран 'ukr'
@@ -192,7 +192,7 @@ function switchLanguage(newLang) {
     link.addEventListener('click', function (e) {
       e.preventDefault(); // отменяем переход по href="#"
       const lang = this.getAttribute('data-lang');
-      switchLanguage(lang);
+      switchЯзык(lang);
     });
   });
 
