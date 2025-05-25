@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balenciaga Runner 2.0</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+            <div class="item-info">
+                <h2 class="oswald-medium"></h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p></p>
+                    <ul></ul>
+                    <p></p>
+                    <a href="./../info.html" class="about-qlt">More about quality</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">Order now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5000 ₴",
+                good: "",
+                middle: ""
+            },
+            sizes: "35-46",
+            shipping: "Отправка в течении 12-14 рабочих дней"
+        };
+
+        const colorsData = [
+            {
+                colorName: "beige-brown",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/200868570badeafa/Large-779066W3RXP2000_F.jpg?v=4",
+                    "https://balenciaga.dam.kering.com/m/42b81acdcec1650c/eCom-779064W3RXP2000_J.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/68c51583a05bdf0a/eCom-779064W3RXP2000_I.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/2a8d9a418e37165/eCom-779064W3RXP2000_L.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/7131b48a16d7175b/eCom-779064W3RXP2000_D.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/63a91e4bb933de74/eCom-779064W3RXP2000_E.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/17bba52c538afc7e/eCom-779064W3RXP2000_A.jpg?v=3",
+                ],
+                name: "Balenciaga runner 2.0 in beige/brown",
+                prices: {
+                    excellent: "5000 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white-red",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/2377b3b124a8bba/Large-779064W3RXP9260_F.jpg?v=4",
+                    "https://balenciaga.dam.kering.com/m/4db8b547b716ca4/eCom-779064W3RXP9260_J.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/35d1b68cab6e86b6/Large-779064W3RXP9260_I.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/1bb81d9f7e8118d5/Large-779064W3RXP9260_L.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/a5ff723ad6c7a09/Large-779064W3RXP9260_D.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/bf65d5d0a4b1370/Large-779064W3RXP9260_E.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/7ddceb7cdd2055a0/Large-779064W3RXP9260_A.jpg?v=3",
+                ],
+                name: "Balenciaga runner 2.0 in white/red",
+                prices: {
+                    excellent: "5000 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white-yellow",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/fc6ce49278b9c55/Large-779066W3RXP9710_F.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/1226ab2cb5e902e1/Large-779066W3RXP9710_J.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/4046313fe32439f6/Large-779066W3RXP9710_I.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/391148f38e557fb3/Large-779066W3RXP9710_L.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/43be68083b0db56c/Large-779066W3RXP9710_D.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/20f8aaa57e54a0fd/Large-779066W3RXP9710_E.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/674eb966616c7752/Large-779066W3RXP9710_A.jpg?v=1",
+                ],
+                name: "Balenciaga runner 2.0 in white/yellow",
+                prices: {
+                    excellent: "5000 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "yellow-blue",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/27f9289740b44d42/Large-779066W3RXP9074_F.jpg?v=4",
+                    "https://balenciaga.dam.kering.com/m/3213362ce4098c09/Large-779066W3RXP9074_J.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/6b8c3e83c108dae7/Large-779066W3RXP9074_I.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/210c904229b18cc3/Large-779066W3RXP9074_L.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/2881611a83d22c52/Large-779066W3RXP9074_D.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/1e43cd396afd22d7/Large-779066W3RXP9074_E.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/45727b05af12eca3/Large-779066W3RXP9074_A.jpg?v=3",
+                ],
+                name: "Balenciaga runner 2.0 in yellow/blue",
+                prices: {
+                    excellent: "5000 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("beige-brown", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+
+    </script>
+</body>
+</html>

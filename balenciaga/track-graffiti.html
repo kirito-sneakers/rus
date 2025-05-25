@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balenciaga Track Graffiti</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+            <div class="item-info">
+                <h2 class="oswald-medium"></h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p></p>
+                    <ul></ul>
+                    <p></p>
+                    <a href="./../info.html" class="about-qlt">More about quality</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">Order now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5400 ₴",
+                good: "4600 ₴",
+                middle: "3800 ₴"
+            },
+            sizes: "35-45",
+            shipping: "Отправка в течении 12-14 рабочих дней"
+        };
+
+        const colorsData = [
+            {
+                colorName: "black",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/4b9e3467ee30cdb0/Large-542023WTRHW1090_F.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/104f1ae6cc344795/Large-542023WTRHW1090_J.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/4aa52a339cc786fa/Large-542023WTRHW1090_I.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/195bca0ef768f288/Large-542023WTRHW1090_L.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/3ad1b71910603fbb/eCom-542436WTRHW1090_D.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/75be190d1ab140b1/Large-542023WTRHW1090_E.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/41074cde8537604e/Large-542023WTRHW1090_A.jpg?v=2",
+                ],
+                name: "Balenciaga Track Graffiti in black",
+                prices: {
+                    excellent: "4800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/6e1055a4e22cfd55/Large-542436WTRHW9010_F.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/111f1f10db2efa4b/Large-542436WTRHW9010_J.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/13015a42b5c35dd1/Large-542436WTRHW9010_I.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/7ee27eca9625150e/Large-542436WTRHW9010_L.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/389782b2b911da1c/Large-542436WTRHW9010_D.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/5322eb07db9713de/Large-542436WTRHW9010_E.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/41af4a51d3c13791/Large-542436WTRHW9010_A.jpg?v=1",
+                ],
+                name: "Balenciaga Track Graffiti in white",
+                prices: {
+                    excellent: "4800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black-white",
+                images: [
+                    "./img/track-graffiti-black_white-1.jpg",
+                    "https://cdn.clothbase.com/uploads/de5f6243-a5ee-4d7a-8243-8cfd509e19a4/31-07-2023-JWx_542023-W3SRA-1090_1_1.jpg",
+                    "https://cdn.clothbase.com/uploads/96004ab0-92eb-4739-a055-2400c87f3745/31-07-2023-JWx_542023-W3SRA-1090_3_1.jpg",
+                    "https://cdn.clothbase.com/uploads/160a7d8a-76a8-4203-96c4-6ba973e7b9f5/31-07-2023-JWx_542023-W3SRA-1090_5_1.jpg",
+                ],
+                name: "Balenciaga Track painted in black/white",
+                prices: {
+                    excellent: "4800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white-blue",
+                images: [
+                    "./img/track-grafifiti-whtie_blue-1.jpg",
+                    "https://cdn.clothbase.com/uploads/adc471b2-d157-4d28-be68-6a042f0e8079/31-07-2023-JWx_542023-W3SRA-9014_2_1.jpg",
+                    "https://cdn.clothbase.com/uploads/f612e826-8dd5-4ede-9764-0ffa8ede8e29/31-07-2023-JWx_542023-W3SRA-9014_1_1.jpg",
+                    "https://cdn.clothbase.com/uploads/dd2d28c5-c8c7-44ea-afad-618303eb9439/31-07-2023-JWx_542023-W3SRA-9014_3_1.jpg",
+                    "https://cdn.clothbase.com/uploads/b1214542-7340-4b47-8897-cb639f6bc525/31-07-2023-JWx_542023-W3SRA-9014_5_1.jpg",
+                ],
+                name: "Balenciaga Track painted in white/blue",
+                prices: {
+                    excellent: "4800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        initializePage(colorsData, commonInfo);
+
+    </script>
+</body>
+</html>

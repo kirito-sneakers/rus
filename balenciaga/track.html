@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balenciaga Track</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+            <div class="item-info">
+                <h2 class="oswald-medium"></h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p></p>
+                    <ul></ul>
+                    <p></p>
+                    <a href="./../info.html" class="about-qlt">More about quality</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">Order now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5400 ₴",
+                good: "4600 ₴",
+                middle: "3800 ₴"
+            },
+            sizes: "35-45",
+            shipping: "Отправка в течении 12-14 рабочих дней"
+        };
+
+        const colorsData = [
+            {
+                colorName: "black",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/614246a71e653806/Large-542436W1GB11000_F.jpg?v=5",
+                    "https://balenciaga.dam.kering.com/m/76fb696db7e70b7e/Large-542436W1GB11000_I.jpg?v=5",
+                    "https://balenciaga.dam.kering.com/m/45950583babc4d88/eCom-542436W1GB11000_L.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/1c0f5438741b7b73/Large-542436W1GB11000_D.jpg?v=6",
+                    "https://balenciaga.dam.kering.com/m/5cf4dd97551fa081/eCom-542436W1GB11000_E.jpg?v=6",
+                    "https://balenciaga.dam.kering.com/m/2f4aea599b9bff6e/Large-542436W1GB11000_A.jpg?v=6",
+                ],
+                name: "Balenciaga Track in black",
+                prices: {
+                    excellent: "4800 ₴",
+                    good: "4300 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/2aa3a0a429e745c3/Large-542023W1GB19000_F.jpg?v=7",
+                    "https://balenciaga.dam.kering.com/m/63a77f3e148690c4/Large-542023W1GB19000_I.jpg?v=7",
+                    "https://balenciaga.dam.kering.com/m/332810b64343de0/Large-542023W1GB19000_L.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/643734568fa77be6/Large-542023W1GB19000_D.jpg?v=8",
+                    "https://balenciaga.dam.kering.com/m/3ed3275e7012e4c7/Large-542023W1GB19000_E.jpg?v=7",
+                    "https://balenciaga.dam.kering.com/m/532b69db3b71c641/Large-542023W1GB19000_A.jpg?v=7",
+                ],
+                name: "Balenciaga Track in white",
+                prices: {
+                    excellent: "4800 ₴",
+                    good: "4300 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "beige",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/1f84b1ae31bdcdff/Large-542023W2LA29110_F.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/50b8bc27fcfb6cb3/Large-542023W2LA29110_I.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/2a7c29ff2421bf44/Large-542023W2LA29110_L.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/2da6a1d2cb6a50b6/Large-542023W2LA29110_D.jpg?v=4",
+                    "https://balenciaga.dam.kering.com/m/76df2226750cfa2b/Large-542023W2LA29110_E.jpg?v=4",
+                    "https://balenciaga.dam.kering.com/m/6a64df8c5d0f7f39/Large-542023W2LA29110_A.jpg?v=3",
+                ],
+                name: "Balenciaga Track in beige",
+                prices: {
+                    excellent: "4800 ₴",
+                    good: "4300 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "pink",
+                images: [
+                    "./img/track-pink-1.jpg",
+                    "https://cdn-images.farfetch-contents.com/16/77/93/77/16779377_33752942_1000.jpg",
+                    "https://cdn-images.farfetch-contents.com/16/77/93/77/16779377_33755532_1000.jpg",
+                    "https://cdn-images.farfetch-contents.com/16/77/93/77/16779377_33755533_1000.jpg",
+                ],
+                name: "Balenciaga Track in pink",
+                prices: {
+                    excellent: "4800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white2",
+                images: [
+                    "./img/track-adidas-white-1.jpg",
+                    "https://media-assets.grailed.com/prd/listing/72155708/83912576fb094dc4b37d8c70bc8da3ce?w=1000",
+                    "https://media-assets.grailed.com/prd/listing/72155708/0f9c2f8c028344e1bd2d3193e5cdb8bb?w=1000",
+                    "https://media-assets.grailed.com/prd/listing/72155708/bf763b5beeb542aa9abf24773aee5c6c?w=1000",
+                ],
+                name: "Balenciaga & adidas Track in white",
+                prices: {
+                    excellent: "4800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black-white",
+                images: [
+                    "./img/track-black_white-1.jpg",
+                    "https://bigkross.ua/assets/images/products/2384/23234ce7-252d-11ec-937c-18c04d68439c.jpeg",
+                    "https://bigkross.ua/assets/images/products/2384/23234ce5-252d-11ec-937c-18c04d68439c.jpeg",
+                    "https://bigkross.ua/assets/images/products/2384/23234ce6-252d-11ec-937c-18c04d68439c.jpeg",
+                    "http://bigkross.ua/assets/images/products/2384/23234ce9-252d-11ec-937c-18c04d68439c.jpeg",
+                ],
+                name: "Balenciaga Track in black/white",
+                prices: {
+                    excellent: "4800 ₴",
+                    good: "4300 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "beige-black",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/7b7c9495c7df7055/Large-542436W3AC48071_F.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/76616546357704/Large-542436W3AC48071_J.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/76190431c1e70e8c/Large-542436W3AC48071_L.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/19739204d92cb7d0/Large-542436W3AC48071_D.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/1f95ecfcd4f831ab/Large-542436W3AC48071_E.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/7a248fb1ff6d46c2/Large-542436W3AC48071_A.jpg?v=2",
+                ],
+                name: "Balenciaga Track in beige/black",
+                prices: {
+                    excellent: "4800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white-orange",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/5d0d7977338156dc/Large-542436W1GB19059_F.jpg?v=5",
+                    "https://balenciaga.dam.kering.com/m/500ab4f8c9387ed3/Large-542436W1GB19059_I.jpg?v=5",
+                    "https://balenciaga.dam.kering.com/m/5f1a2b59a36740f2/Large-542436W1GB19059_D.jpg?v=6",
+                    "https://balenciaga.dam.kering.com/m/101701a355f58e54/Large-542436W1GB19059_E.jpg?v=6",
+                    "https://balenciaga.dam.kering.com/m/13bd5232afd43634/Large-542436W1GB19059_A.jpg?v=2",
+                ],
+                name: "Balenciaga Track in white/orange",
+                prices: {
+                    excellent: "4800 ₴",
+                    good: "4300 ₴",
+                    middle: ""
+                }
+            },
+        ];
+
+        initializePage(colorsData, commonInfo);
+
+    </script>
+</body>
+</html>

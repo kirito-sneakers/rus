@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balenciaga Track Led</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+            <div class="item-info">
+                <h2 class="oswald-medium"></h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p></p>
+                    <ul></ul>
+                    <p></p>
+                    <a href="./../info.html" class="about-qlt">More about quality</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">Order now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5400 ₴",
+                good: "4600 ₴",
+                middle: "3800 ₴"
+            },
+            sizes: "35-45",
+            shipping: "Отправка в течении 12-14 рабочих дней"
+        };
+
+        const colorsData = [
+            {
+                colorName: "black",
+                images: [
+                    "./img/track-led-black-1.jpg",
+                    "./img/track-led-black-2.jpg",
+                    "./img/track-led-black-3.jpg",
+                    "./img/track-led-black-4.jpg",
+                ],
+                name: "Balenciaga Track led in black",
+                prices: {
+                    excellent: "5200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white",
+                images: [
+                    "./img/track-led-white-1.jpg",
+                    "./img/track-led-white-2.jpg",
+                    "./img/track-led-white-3.jpg",
+                    "./img/track-led-white-4.jpg",
+                ],
+                name: "Balenciaga Track led in white",
+                prices: {
+                    excellent: "5200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        initializePage(colorsData, commonInfo);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balenciaga Runner</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+            <div class="item-info">
+                <h2 class="oswald-medium"></h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p></p>
+                    <ul></ul>
+                    <p></p>
+                    <a href="./../info.html" class="about-qlt">More about quality</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">Order now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5000 ₴",
+                good: "4600 ₴",
+                middle: "3800 ₴"
+            },
+            sizes: "35-46",
+            shipping: "Отправка в течении 12-14 рабочих дней"
+        };
+
+        const colorsData = [
+            {
+                colorName: "black",
+                images: [
+                    "./img/runner-black-1.jpg",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/071/333/225/original/899721_08.jpg.jpeg?action=crop&width=600",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/071/333/227/original/899721_03.jpg.jpeg?action=crop&width=600",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/071/333/224/original/899721_06.jpg.jpeg?action=crop&width=600",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/071/333/230/original/899721_04.jpg.jpeg?action=crop&width=600",
+                ],
+                name: "Balenciaga runner in black",
+                prices: {
+                    excellent: "5400 ₴",
+                    good: "5000 ₴",
+                    middle: "4300 ₴"
+                }
+            },
+            {
+                colorName: "white",
+                images: [
+                    "./img/runner-white-1.jpg",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/082/510/123/original/915500_08.jpg.jpeg?action=crop&width=600",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/082/510/082/original/915500_03.jpg.jpeg?action=crop&width=600",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/082/510/117/original/915500_06.jpg.jpeg?action=crop&width=600",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/082/510/083/original/915500_04.jpg.jpeg?action=crop&width=600",
+                ],
+                name: "Balenciaga runner in white",
+                prices: {
+                    excellent: "5400 ₴",
+                    good: "5000 ₴",
+                    middle: "4300 ₴"
+                }
+            },
+            {
+                colorName: "grey",
+                images: [
+                    "./img/runner-grey-1.jpg",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/099/873/938/original/1241879_08.jpg.jpeg?action=crop&width=600",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/099/873/896/original/1241879_03.jpg.jpeg?action=crop&width=1000",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/099/873/921/original/1241879_06.jpg.jpeg?action=crop&width=600",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/099/873/909/original/1241879_04.jpg.jpeg?action=crop&width=600",
+                ],
+                name: "Balenciaga runner in grey",
+                prices: {
+                    excellent: "5400 ₴",
+                    good: "5000 ₴",
+                    middle: "4300 ₴"
+                }
+            },
+        ];
+
+        initializePage(colorsData, commonInfo);
+
+    </script>
+</body>
+</html>

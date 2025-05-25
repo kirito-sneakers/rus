@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balenciaga & Under Armour 3XL</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+            <div class="item-info">
+                <h2 class="oswald-medium"></h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p></p>
+                    <ul></ul>
+                    <p></p>
+                    <a href="./../info.html" class="about-qlt">More about quality</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">Order now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5400 ₴",
+                good: "4600 ₴",
+                middle: "3800 ₴"
+            },
+            sizes: "35-45",
+            shipping: "Отправка в течении 12-14 рабочих дней"
+        };
+
+        const colorsData = [
+            {
+                colorName: "black",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/102c767026467f20/Large-814419W3XUA1090_F.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/376ed5d04e965d32/Large-814419W3XUA1090_J.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/5bec6d6003ef296d/Large-814419W3XUA1090_I.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/11182ba800b3b4cc/Large-814419W3XUA1090_L.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/6a3096be9fc60933/Large-814419W3XUA1090_D.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/7947db8bdb82279b/Large-814419W3XUA1090_E.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/33a0eef41e8b5a26/Large-814415W3XUA1090_A.jpg?v=1",
+                ],
+                name: "Balenciaga & Under armour 3XL in black",
+                prices: {
+                    excellent: "4500 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/7dd930ced130172e/Large-814419W3XUA9010_F.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/dec769b683b651d/Large-814419W3XUA9010_J.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/75e172a586b6bb79/Large-814419W3XUA9010_I.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/5c11ef28bfbec4d9/Large-814419W3XUA9010_L.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/4abab3b8fe464b82/Large-814419W3XUA9010_D.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/4c996aba309a55a2/Large-814419W3XUA9010_E.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/b1450e31366991d/Large-814419W3XUA9010_A.jpg?v=1",
+                ],
+                name: "Balenciaga & Under armour 3XL in white",
+                prices: {
+                    excellent: "4500 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        initializePage(colorsData, commonInfo);
+
+    </script>
+</body>
+</html>

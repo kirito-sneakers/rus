@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balenciaga 3XL Ski</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+            <div class="item-info">
+                <h2 class="oswald-medium"></h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p></p>
+                    <ul></ul>
+                    <p></p>
+                    <a href="./../info.html" class="about-qlt">More about quality</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">Order now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "4800 ₴",
+                good: "4600 ₴",
+                middle: "3800 ₴"
+            },
+            sizes: "35-45",
+            shipping: "Отправка в течении 12-14 рабочих дней"
+        };
+
+        const colorsData = [
+            {
+                colorName: "white",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/3bfa45de6b09a324/Medium-766034W3XR39710_F.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/5742e529c3b63c8d/Medium-766034W3XR39710_E.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/2b64aa3d8fae754c/Medium-766034W3XR39710_I.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/37991d914119414f/Medium-766033W3XR39710_D.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/12914b1498edbbfc/Medium-766033W3XR39710_A.jpg?v=1",
+                    "./img/3xl-ski-accessory.jpg",
+                ],
+                name: "Balenciaga 3xl ski in white",
+                prices: {
+                    excellent: "4800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/472b885ecee44197/eCom-766034W3XR21000_F.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/2be6d103f05dc326/Medium-766034W3XR21000_E.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/1aa73cef64803dc0/Medium-766034W3XR21000_I.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/2debb2271e44388c/Medium-766034W3XR21000_J.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/46de148d27c536ad/Medium-766034W3XR21000_A.jpg?v=2",
+                    "./img/3xl-ski-accessory.jpg",
+                ],
+                name: "Balenciaga 3xl ski in black",
+                prices: {
+                    excellent: "4800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "yellow",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/662d727b0ad4af7f/Thumbnail-766034W3XR27010_F.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/2f090995593f08fc/Medium-766034W3XR27010_E.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/4cbcdb45ccdc46ab/Medium-766034W3XR27010_D.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/61fda2b4f03b44d6/Medium-766034W3XR27010_I.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/70c8068880a0672b/Thumbnail-766034W3XR27010_A.jpg?v=1",
+                    "./img/3xl-ski-accessory.jpg",
+                ],
+                name: "Balenciaga 3xl ski in yellow",
+                prices: {
+                    excellent: "4800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("white", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+
+
+    </script>
+</body>
+</html>

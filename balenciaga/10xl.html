@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balenciaga 10XL</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+            <div class="item-info">
+                <h2 class="oswald-medium"></h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p></p>
+                    <ul></ul>
+                    <p></p>
+                    <a href="./../info.html" class="about-qlt">More about quality</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">Order now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5000 ₴",
+                good: "4600 ₴",
+                middle: "3800 ₴"
+            },
+            sizes: "35-46",
+            shipping: "Отправка в течении 12-14 рабочих дней"
+        };
+
+        const colorsData = [
+            {
+                colorName: "white",
+                images: [
+                    "./img/10xl-white-1.jpg",
+                    "https://cdn-images.farfetch-contents.com/23/82/37/58/23823758_54366022_1000.jpg",
+                    "https://cdn-images.farfetch-contents.com/23/82/37/58/23823758_54366041_1000.jpg",
+                    "https://cdn-images.farfetch-contents.com/23/82/37/58/23823758_54366027_1000.jpg",
+                ],
+                name: "Balenciaga 10xl in white",
+                prices: {
+                    excellent: "5000 ₴",
+                    good: "4500 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/560e23f9969803e4/Large-792779W2MV21000_F.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/7746810c6fd7a4eb/Large-792779W2MV21000_J.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/1612738001e76b8f/Large-792779W2MV21000_I.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/5c0bb53fde0118fc/Large-792779W2MV21000_L.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/d50be29718a10d7/Large-792779W2MV21000_D.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/5ba82a39b09ac5/Large-792779W2MV21000_E.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/7b64bdddaafea07c/Large-792779W2MV21000_A.jpg?v=1",
+                ],
+                name: "Balenciaga 10xl in black",
+                prices: {
+                    excellent: "5000 ₴",
+                    good: "4500 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white-orange",
+                images: [
+                    "./img/10xl-white_orange-1.jpg",
+                    "https://i.ebayimg.com/images/g/tBEAAeSw0-1nomGz/s-l960.webp",
+                    "https://i.ebayimg.com/images/g/rDYAAeSwcRtnomGz/s-l960.webp",
+                    "https://i.ebayimg.com/images/g/FBwAAeSwFIRnomGz/s-l960.webp",
+                    "https://i.ebayimg.com/images/g/KOsAAeSwJDBnomGz/s-l960.webp",
+                ],
+                name: "Balenciaga 10xl in white/orange",
+                prices: {
+                    excellent: "5000 ₴",
+                    good: "4500 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "grey-pink",
+                images: [
+                    "./img/10xl-grey_pink-1.jpg",
+                    "https://sanahunt.com/storage/products/images/big/Tf5jVVeDJmwJ5dh21RFSKtaiV66ygjibzRo6e6qX.jpg.webp",
+                    "https://sanahunt.com/storage/products/images/big/wRpWIPoLLOocEwTA1XbIUwmvoiFrO3c8vrtk5pc1.jpg.webp",
+                    "https://sanahunt.com/storage/products/images/big/H6GodQHFo4O7snRzfhiqChKKBHeMib6VilpAIP1o.jpg.webp",
+                ],
+                name: "Balenciaga 10xl in grey/pink",
+                prices: {
+                    excellent: "5000 ₴",
+                    good: "4500 ₴",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("white", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+
+    </script>
+</body>
+</html>

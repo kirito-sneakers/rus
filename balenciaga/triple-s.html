@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balenciaga Triple S</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+            <div class="item-info">
+                <h2 class="oswald-medium"></h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p></p>
+                    <ul></ul>
+                    <p></p>
+                    <a href="./../info.html" class="about-qlt">More about quality</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">Order now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5400 ₴",
+                good: "4300 ₴",
+                middle: "3800 ₴"
+            },
+            sizes: "35-45",
+            shipping: "Отправка в течении 12-14 рабочих дней"
+        };
+
+        const colorsData = [
+            {
+                colorName: "beige",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/3854d991a1d9606c/Large-524039W2FW19700_F.jpg?v=4",
+                    "https://balenciaga.dam.kering.com/m/4c5f218186ba8c62/Large-524039W2FW19700_I.jpg?v=4",
+                    "https://balenciaga.dam.kering.com/m/7cda60c733a0e160/Large-524039W2FW19700_L.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/2791d16a8047698/Large-524039W2FW19700_D.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/1e9c92cf949795a2/Large-524039W2FW19700_E.jpg?v=4",
+                    "https://balenciaga.dam.kering.com/m/128ec813692570c0/Large-524039W2FW19700_A.jpg?v=4",
+                ],
+                name: "Balenciaga triple s in beige",
+                prices: {
+                    excellent: "5400 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black-red",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/3af9cb97f6786d10/Large-533882W09OM1000_F.jpg?v=5",
+                    "https://balenciaga.dam.kering.com/m/4edf77093fb399c1/eCom-533882W09OM1000_I.jpg?v=5",
+                    "https://balenciaga.dam.kering.com/m/2f55537a90e8304a/Large-533882W09OM1000_D.jpg?v=6",
+                ],
+                name: "Balenciaga triple s in black/red",
+                prices: {
+                    excellent: "5400 ₴",
+                    good: "4300 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white-red",
+                images: [
+                    "./img/triple-s-white_red-1.jpg",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/101/701/840/original/583453_08.jpg.jpeg?action=crop&width=600",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/101/701/841/original/583453_03.jpg.jpeg?action=crop&width=600",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/101/701/836/original/583453_06.jpg.jpeg?action=crop&width=600",
+                    "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/101/701/839/original/583453_04.jpg.jpeg?action=crop&width=600",
+                ],
+                name: "Balenciaga triple s in white/red",
+                prices: {
+                    excellent: "5400 ₴",
+                    good: "4300 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "beige-red",
+                images: [
+                    "./img/triple-s-beige_red-1.jpg",
+                    "https://cdn.theluxurycloset.com/uploads/opt/products/full/luxury-women-balenciaga-used-shoes-p540599-009.jpg",
+                    "https://cdn.theluxurycloset.com/uploads/opt/products/full/luxury-women-balenciaga-used-shoes-p540599-001.jpg",
+                    "https://cdn.theluxurycloset.com/uploads/opt/products/full/luxury-women-balenciaga-used-shoes-p540599-003.jpg",
+                ],
+                name: "Balenciaga triple s in beige/red",
+                prices: {
+                    excellent: "5400 ₴",
+                    good: "4300 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white-green",
+                images: [
+                    "./img/triple-s-white_green-1.jpg",
+                    "https://images.vestiairecollective.com/images/resized/w=768,q=75,f=auto,/produit/multicolour-cloth-triple-s-balenciaga-trainers-39023920-2_1.jpg",
+                    "https://images.vestiairecollective.com/images/resized/w=768,q=75,f=auto,/produit/multicolour-cloth-triple-s-balenciaga-trainers-39023920-3_1.jpg",
+                ],
+                name: "Balenciaga triple s in white/green",
+                prices: {
+                    excellent: "5400 ₴",
+                    good: "4300 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black",
+                images: [
+                    "./img/triple-s-black-1.jpg",
+                    "https://i.ebayimg.com/images/g/GvQAAOSwgFxnINiL/s-l1600.webp",
+                    "https://i.ebayimg.com/images/g/4iQAAOSwO7JnINiL/s-l1600.webp",
+                    "https://i.ebayimg.com/images/g/PJsAAOSwlNBnINiL/s-l1600.webp",
+                    "https://i.ebayimg.com/images/g/F98AAOSwPahnINiL/s-l1600.webp",
+                    "https://i.ebayimg.com/images/g/HCsAAOSwuQRnINiL/s-l1600.webp",
+                ],
+                name: "Balenciaga triple s leather in black",
+                prices: {
+                    excellent: "5400 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white",
+                images: [
+                    "./img/triple-s-white-1.jpg",
+                    "https://images.vestiairecollective.com/images/resized/w=1024,q=75,f=auto,/produit/baskets-balenciaga-triple-s-en-cuir-blanc-50664570-1_2.jpg",
+                    "https://images.vestiairecollective.com/images/resized/w=768,q=75,f=auto,/produit/white-leather-triple-s-balenciaga-trainers-50664570-4_2.jpg",
+                    "https://images.vestiairecollective.com/images/resized/w=768,q=75,f=auto,/produit/white-leather-triple-s-balenciaga-trainers-50664570-5_2.jpg",
+                    "https://images.vestiairecollective.com/images/resized/w=768,q=75,f=auto,/produit/white-leather-triple-s-balenciaga-trainers-50664570-7_2.jpg",
+                ],
+                name: "Balenciaga triple s leather in white",
+                prices: {
+                    excellent: "5400 ₴",
+                    good: "4300 ₴",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("beige", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+
+    </script>
+</body>
+</html>
