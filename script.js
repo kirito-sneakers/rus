@@ -41,7 +41,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     </svg>
                 </span>
                 <div class="dropdown-menu lang">
-                    <a data-lang='ukr' class="montserrat-light underline-animated dd">Ukr</a>
+                    <a data-lang='' class="montserrat-light underline-animated dd">Ukr</a>
                     <a data-lang='eng' class="montserrat-light underline-animated dd">Eng</a>
                 </div>
             </div>
