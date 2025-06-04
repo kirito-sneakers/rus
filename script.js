@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', () => {
             </div>
         </nav>
         <a href="/rus/" class="logo-icon">
-            <img loading="lazy" src="/rus/img/logotype.png" alt="Logo">
+            <img loading="lazy" src="/img/logotype.png" alt="Logo">
         </a>
         <div class="header-icons">
             <div class="dropdown">
@@ -64,7 +64,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const footer = document.createElement('footer');
     footer.innerHTML = `
-        <div class="footer-logo"><a href="/rus/"><img loading="lazy"src="/rus/img/logotype.png" alt=""></a></div>
+        <div class="footer-logo"><a href="/rus/"><img loading="lazy"src="/img/logotype.png" alt=""></a></div>
         <div class="footer-info">
             <a href="https://t.me/kirito_ls" class="oswald-light underline-animated-black" target="_blank">Написать нам</a>
             <a href="/rus/info.html" class="oswald-light underline-animated-black">О нас</a>
