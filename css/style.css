@@ -1373,11 +1373,11 @@ main.alternative-header {
 
 
 .section-header#balenciaga-bg {
-    background-image: url('./../img/balenciagaBg.webp');
+    background-image: url('/rus/img/balenciagaBg.webp');
 }
 
 .section-header#rick-owens-bg {
-    background-image: url('./../img/rickBg.webp');
+    background-image: url('/rus/img/rickBg.webp');
 }
 
 .mein-menu {
