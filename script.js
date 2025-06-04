@@ -9,24 +9,24 @@ window.addEventListener('DOMContentLoaded', () => {
             <span></span>
         </label>
         <nav class="header-info">
-            <a href="/" class="montserrat-light underline-animated">Главная</a>
-            <a href="/info.html" class="montserrat-light underline-animated">О нас</a>
+            <a href="/rus/" class="montserrat-light underline-animated">Главная</a>
+            <a href="/rus/info.html" class="montserrat-light underline-animated">О нас</a>
             <a href="https://t.me/kirito_ls" class="montserrat-light underline-animated" target="_blank">Написать нам</a>
             <div class="dropdown">
                 <span class="dropdown-title montserrat-light">
                     Бренды 
                     <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
-                        <path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"/>
+                        <path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"/rus/>
                     </svg>
                 </span>
                 <div class="dropdown-menu">
-                    <a href="/balenciaga" class="montserrat-light underline-animated dd">Balenciaga</a>
-                    <a href="/rick-owens" class="montserrat-light underline-animated dd">Rick Owens</a>
+                    <a href="/rus/balenciaga" class="montserrat-light underline-animated dd">Balenciaga</a>
+                    <a href="/rus/rick-owens" class="montserrat-light underline-animated dd">Rick Owens</a>
                 </div>
             </div>
         </nav>
-        <a href="/" class="logo-icon">
-            <img loading="lazy" src="/img/logotype.png" alt="Logo">
+        <a href="/rus/" class="logo-icon">
+            <img loading="lazy" src="/rus/img/logotype.png" alt="Logo">
         </a>
         <div class="header-icons">
             <div class="dropdown">
@@ -37,7 +37,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     </svg>
                     Rus
                     <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
-                        <path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"/>
+                        <path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"/rus/>
                     </svg>
                 </span>
                 <div class="dropdown-menu lang">
@@ -45,7 +45,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     <a data-lang='eng' class="montserrat-light underline-animated dd">Eng</a>
                 </div>
             </div>
-            <a href="/saved.html" class="saved-icon">
+            <a href="/rus/saved.html" class="saved-icon">
                 <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -64,11 +64,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const footer = document.createElement('footer');
     footer.innerHTML = `
-        <div class="footer-logo"><a href="/"><img loading="lazy"src="/img/logotype.png" alt=""></a></div>
+        <div class="footer-logo"><a href="/rus/"><img loading="lazy"src="/rus/img/logotype.png" alt=""></a></div>
         <div class="footer-info">
             <a href="https://t.me/kirito_ls" class="oswald-light underline-animated-black" target="_blank">Написать нам</a>
-            <a href="/info.html" class="oswald-light underline-animated-black">О нас</a>
-            <a href="/" class="oswald-light underline-animated-black">Главная</a>
+            <a href="/rus/info.html" class="oswald-light underline-animated-black">О нас</a>
+            <a href="/rus/" class="oswald-light underline-animated-black">Главная</a>
         </div>
         <div class="footer-contacts">
             <a href="https://www.instagram.com/kirito_sneakers/" target="_blank">
@@ -98,12 +98,12 @@ window.addEventListener('DOMContentLoaded', () => {
     mobileNav.className = '';
     mobileNav.innerHTML = `
         <div class="oswald-medium">Меню</div>
-        <a href="/" class="montserrat-light">Главная</a>
-        <a href="/info.html" class="montserrat-light">О нас</a>
+        <a href="/rus/" class="montserrat-light">Главная</a>
+        <a href="/rus/info.html" class="montserrat-light">О нас</a>
         <a href="https://t.me/kirito_ls" class="montserrat-light" target="_blank">Написать нам</a>
         <div class="oswald-medium">Бренды</div>
-        <a href="/balenciaga" class="montserrat-light">Balenciaga</a>
-        <a href="/rick-owens" class="montserrat-light">Rick Owens</a>
+        <a href="/rus/balenciaga" class="montserrat-light">Balenciaga</a>
+        <a href="/rus/rick-owens" class="montserrat-light">Rick Owens</a>
         <div class="oswald-medium">Язык</div>
         <a data-lang='eng' class="montserrat-light">Eng</a>
         <a data-lang='ukr' class="montserrat-light">Ukr</a>
