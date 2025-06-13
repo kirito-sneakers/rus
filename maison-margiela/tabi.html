@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Balenciaga Track Led</title>
+    <title>Maison Margiela Tabi</title>
     <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,44 +45,61 @@
                 good: "4600 ₴",
                 middle: "3800 ₴"
             },
-            sizes: "35-45",
+            sizes: "35-46",
             shipping: "Отправка в течении 12-14 рабочих дней"
         };
 
         const colorsData = [
             {
-                colorName: "black",
+                colorName: "black-white",
                 images: [
-                    "/balenciaga/img/track-led-black-1.jpg",
-                    "/balenciaga/img/track-led-black-2.jpg",
-                    "/balenciaga/img/track-led-black-3.jpg",
-                    "/balenciaga/img/track-led-black-4.jpg",
+                    "/maison-margiela/img/tabi-black-white-1.jpg",
+                    "https://cdn-images.farfetch-contents.com/18/43/88/94/18438894_52090555_2048.jpg",
+                    "https://cdn-images.farfetch-contents.com/18/43/88/94/18438894_52090554_2048.jpg",
+                    "https://cdn-images.farfetch-contents.com/18/43/88/94/18438894_52127233_2048.jpg",
+                    "https://cdn-images.farfetch-contents.com/18/43/88/94/18438894_52090553_2048.jpg",
+                    "https://cdn-images.farfetch-contents.com/18/43/88/94/18438894_52090552_2048.jpg",
+
                 ],
-                name: "Balenciaga Track led in black",
+                name: "Maison Margiela Tabi in Black/White",
                 prices: {
-                    excellent: "5300 ₴",
-                    good: "4400 ₴",
-                    middle: "4100 ₴"
+                    excellent: "4300 ₴",
+                    good: "",
+                    middle: ""
                 }
             },
             {
                 colorName: "white",
                 images: [
-                    "/balenciaga/img/track-led-white-1.jpg",
-                    "/balenciaga/img/track-led-white-2.jpg",
-                    "/balenciaga/img/track-led-white-3.jpg",
-                    "/balenciaga/img/track-led-white-4.jpg",
+                    "/maison-margiela/img/tabi-white-1.jpg",
+                    "/maison-margiela/img/tabi-white-2.jpg",
+                    "/maison-margiela/img/tabi-white-3.jpg",
                 ],
-                name: "Balenciaga Track led in white",
+                name: "Maison Margiela Tabi in White",
                 prices: {
-                    excellent: "5300 ₴",
-                    good: "4400 ₴",
-                    middle: "4100 ₴"
+                    excellent: "4300 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black",
+                images: [
+                    "/maison-margiela/img/tabi-black-1.jpg",
+                    "/maison-margiela/img/tabi-black-2.jpg",
+                    "/maison-margiela/img/tabi-black-3.jpg",
+                ],
+                name: "Maison Margiela Tabi in Black",
+                prices: {
+                    excellent: "4300 ₴",
+                    good: "",
+                    middle: ""
                 }
             },
         ];
 
-        initializePage(colorsData, commonInfo);
+        updateContent("black-white", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
 
     </script>
 </body>
