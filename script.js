@@ -25,6 +25,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     <a href="/rus/maison-margiela" class="montserrat-light underline-animated dd">Maison Margiela</a>
                 </div>
             </div>
+            <a href="https://kirito-cloth.com/" class="montserrat-light underline-animated">Одежда</a>
         </nav>
         <a href="/rus/" class="logo-icon">
             <img loading="lazy" src="/img/logotype.png" alt="Logo">
@@ -102,6 +103,7 @@ window.addEventListener('DOMContentLoaded', () => {
         <a href="/rus/" class="montserrat-light">Главная</a>
         <a href="/rus/info.html" class="montserrat-light">О нас</a>
         <a href="https://t.me/kirito_ls" class="montserrat-light" target="_blank">Написать нам</a>
+        <a href="https://kirito-cloth.com/" class="montserrat-light" target="_blank">Одежда</a>
         <div class="oswald-medium">Бренды</div>
         <a href="/rus/balenciaga" class="montserrat-light">Balenciaga</a>
         <a href="/rus/rick-owens" class="montserrat-light">Rick Owens</a>
